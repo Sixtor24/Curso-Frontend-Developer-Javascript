@@ -270,13 +270,13 @@ bottom: 0;
     margin-top: 0;
     margin-bottom: 4px;
   }
-  .productDetail .product-info p:nth-child(2) {
+  #productDetail .product-info p:nth-child(2) {
     color: var(--very-light-pink);
     font-size: var(--md);
     margin-top: 0;
     margin-bottom: 36px;
   }
-  .productDetail .product-info p:nth-child(3) {
+  #productDetail .product-info p:nth-child(3) {
     color: var(--very-light-pink);
     font-size: var(--sm);
     margin-top: 0;
@@ -360,9 +360,7 @@ bottom: 0;
         width: 100%;
     }
     .cards-container {
-        display: grid;
         grid-template-columns: repeat(auto-fill, 140px);
-        gap: 26px;
     }
     .product-card {
     width: 140px;
