@@ -108,13 +108,48 @@ function closeMenus()
 
 const productList = [];
 
-for(let i = 0; i < 36; i++)
+for(let i = 0; i < 1; i++)
 {
     productList.push(
         {
             name: 'Bike',
-            price: 120.00,
+            price: 115.00,
             image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+        }
+    );
+    productList.push(
+        {
+            name: 'Control PS5',
+            price: 65.00,
+            image: 'https://images.pexels.com/photos/11591876/pexels-photo-11591876.jpeg?auto=compress&cs=tinysrgb&w=600',
+        }
+    );
+    productList.push(
+        {
+            name: 'Laptop mackbookPro',
+            price: 549.00,
+            image: 'https://images.pexels.com/photos/40185/mac-freelancer-macintosh-macbook-40185.jpeg?auto=compress&cs=tinysrgb&w=600',
+        }
+    );
+    productList.push(
+        {
+            name: 'Iphone13proMax',
+            price: 850.00,
+            image: 'https://images.pexels.com/photos/4071887/pexels-photo-4071887.jpeg?auto=compress&cs=tinysrgb&w=600',
+        }
+    );
+    productList.push(
+        {
+            name: 'Alexa',
+            price: 356.00,
+            image: 'https://images.pexels.com/photos/4790255/pexels-photo-4790255.jpeg?auto=compress&cs=tinysrgb&w=600',
+        }
+    );
+    productList.push(
+        {
+            name: 'Earphones Samsung',
+            price: 60.00,
+            image: 'https://images.pexels.com/photos/3780681/pexels-photo-3780681.jpeg?auto=compress&cs=tinysrgb&w=600',
         }
     );
 }
