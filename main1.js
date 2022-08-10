@@ -147,9 +147,9 @@ for(let i = 0; i < 1; i++)
     );
     productList.push(
         {
-            name: 'Earphones Samsung',
+            name: 'Nike shoes',
             price: 60.00,
-            image: 'https://images.pexels.com/photos/3780681/pexels-photo-3780681.jpeg?auto=compress&cs=tinysrgb&w=600',
+            image: 'https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=600',
         }
     );
 }
